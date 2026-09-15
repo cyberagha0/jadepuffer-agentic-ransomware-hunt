@@ -1,12 +1,27 @@
-# JadePuffer — Hunting an Agentic Ransomware Operation in Microsoft Sentinel
+# 🛡️ JadePuffer: Hunting an Agentic Ransomware Operation in Microsoft Sentinel
 
-**Case:** Hunt 23 — JadePuffer
-**Environment:** Flowforge (`flowforge.io`) — a four-host Linux AI-workflow estate
-**Attack window:** 30 July 2026, ~19:20–19:37 UTC (about 17 minutes, start to ransom note)
-**Tooling:** Microsoft Sentinel, KQL
-**Scenario source:** modelled on the Sysdig Threat Research Team's JADEPUFFER disclosure (July 2026), assessed as the first documented end-to-end agentic ransomware operation
+> **Threat Hunting Case Study | Microsoft Sentinel | KQL | Agentic Ransomware**
 
-> This is a **lab exercise on simulated telemetry**. No real company, host, or victim is involved. All IPs, accounts, and the Bitcoin address below come from the training dataset.
+---
+
+## 📌 Case Overview
+
+| Field | Details |
+|---|---|
+| 🎯 **Case** | Hunt 23 — JadePuffer |
+| 🏢 **Environment** | Flowforge (`flowforge.io`) |
+| 🖥️ **Infrastructure** | Four-host Linux AI workflow environment |
+| ⏱️ **Attack Window** | 30 July 2026, ~19:20–19:37 UTC |
+| 🔎 **Tooling** | Microsoft Sentinel, KQL |
+| 🧠 **Threat Type** | Agentic ransomware operation |
+| 📚 **Scenario Source** | Modelled on Sysdig Threat Research Team's JADEPUFFER disclosure |
+
+> ⚠️ **Lab Environment**
+>
+> This investigation uses simulated telemetry from a training environment.
+> No real company, host, account, or victim is represented. IP addresses,
+> usernames, and the Bitcoin address shown in this repository originate
+> from the training dataset.
 
 ---
 
