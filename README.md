@@ -1047,6 +1047,6 @@ Behavioural indicators near the top of this list survive infrastructure changes.
 
 ## Credits and disclaimer
 
-Investigation performed on a simulated Microsoft Sentinel workspace as part of a cyber range exercise. The scenario reproduces the Sysdig Threat Research Team's JADEPUFFER disclosure (July 2026); all telemetry, hosts, accounts, and indicators here are synthetic and belong to the training environment.
+Investigation performed on a simulated Microsoft Sentinel workspace as part of a cyber range exercise. The scenario reproduces the Sysdig Threat Research Team's JADEPUFFER disclosure (July 2026); all telemetry, hosts, accounts, and indicators here are synthetic and belong to LOG(N) Pacific Cyber Range environment.
 
 Queries, analysis, and write-up are my own work.
