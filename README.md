@@ -10,8 +10,7 @@
 
 ---
 
-## TL;DR
-
+## Incident Summary
 An alert fired on `ff-lf-01`: a service account started a process it had never started before. Working backwards from that single event, the hunt reconstructed a full kill chain — exploitation of a public-facing Langflow endpoint, C2, credential theft, internal discovery, lateral movement, privilege escalation, database encryption, table drops, and a ransom note.
 
 The part that makes this case different: **the attacker was an LLM agent.** One human instruction started it. Everything after that — tool selection, failure handling, retries, moving host to host — the agent did on its own, at machine speed.
